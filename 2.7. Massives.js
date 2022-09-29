@@ -36,3 +36,9 @@ magnitStack()
 for (let i=0; i<stack.length; i++) {
     console.log('element', i)
 } // best way to iterate array
+
+
+arr.push(...items) // добавляет элементы в конец,
+arr.pop() // извлекает элемент из конца,
+arr.shift() // извлекает элемент из начала,
+arr.unshift(...items) // добавляет элементы в начало.
